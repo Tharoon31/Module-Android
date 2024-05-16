@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sagarkhurana.quizforfun"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/madhavan/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.sagarkhurana.quizforfun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/madhavan/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/madhavan/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.sagarkhurana.quizforfun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/madhavan/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/madhavan/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:4:5-31:19
+18        android:allowBackup="true"
+18-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/madhavan/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:icon="@mipmap/ic_launcher_logo"
+22-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:6:9-48
+23        android:label="@string/app_name"
+23-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:7:9-41
+24        android:roundIcon="@mipmap/ic_launcher_logo"
+24-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:8:9-53
+25        android:supportsRtl="true"
+25-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:9:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.QuizForFun" >
+27-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:10:9-48
+28        <activity android:name="com.sagarkhurana.quizforfun.GeographyOrLiteratureQuizActivity" />
+28-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:11:9-71
+28-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:11:19-68
+29        <activity android:name="com.sagarkhurana.quizforfun.FinalResultActivity" />
+29-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:12:9-57
+29-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:12:19-54
+30        <activity android:name="com.sagarkhurana.quizforfun.MathQuizActivity" />
+30-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:13:9-54
+30-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:13:19-51
+31        <activity android:name="com.sagarkhurana.quizforfun.EditPasswordActivity" />
+31-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:14:9-58
+31-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:14:19-55
+32        <activity android:name="com.sagarkhurana.quizforfun.HistoryActivity" />
+32-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:15:9-53
+32-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:15:19-50
+33        <activity android:name="com.sagarkhurana.quizforfun.RuleActivity" />
+33-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:16:9-50
+33-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:16:19-47
+34        <activity android:name="com.sagarkhurana.quizforfun.QuizOptionActivity" />
+34-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:17:9-56
+34-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:17:19-53
+35        <activity android:name="com.sagarkhurana.quizforfun.RegisterActivity" />
+35-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:18:9-54
+35-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:18:19-51
+36        <activity android:name="com.sagarkhurana.quizforfun.ProfileActivity" />
+36-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:19:9-53
+36-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:19:19-50
+37        <activity
+37-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:20:9-29:20
+38            android:name="com.sagarkhurana.quizforfun.LoginActivity"
+38-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:21:13-42
+39            android:exported="true"
+39-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:23:13-36
+40            android:theme="@style/splashScreenTheme" >
+40-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:22:13-53
+41            <intent-filter>
+41-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:24:13-28:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:25:17-69
+42-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:25:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:27:17-77
+44-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:27:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.sagarkhurana.quizforfun.HomeActivity" />
+47-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:30:9-50
+47-->/Users/madhavan/Downloads/JavaEdu/app/src/main/AndroidManifest.xml:30:19-47
+48
+49        <service
+49-->[androidx.room:room-runtime:2.6.1] /Users/madhavan/.gradle/caches/transforms-3/9716662f560bce94e1c5b96aa83d6e7b/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+50            android:name="androidx.room.MultiInstanceInvalidationService"
+50-->[androidx.room:room-runtime:2.6.1] /Users/madhavan/.gradle/caches/transforms-3/9716662f560bce94e1c5b96aa83d6e7b/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+51            android:directBootAware="true"
+51-->[androidx.room:room-runtime:2.6.1] /Users/madhavan/.gradle/caches/transforms-3/9716662f560bce94e1c5b96aa83d6e7b/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+52            android:exported="false" />
+52-->[androidx.room:room-runtime:2.6.1] /Users/madhavan/.gradle/caches/transforms-3/9716662f560bce94e1c5b96aa83d6e7b/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+53
+54        <activity
+54-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/madhavan/.gradle/caches/transforms-3/6cc4ff704ae2501a466d776c5e741a91/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:23:9-25:39
+55            android:name="androidx.compose.ui.tooling.PreviewActivity"
+55-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/madhavan/.gradle/caches/transforms-3/6cc4ff704ae2501a466d776c5e741a91/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:24:13-71
+56            android:exported="true" />
+56-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/madhavan/.gradle/caches/transforms-3/6cc4ff704ae2501a466d776c5e741a91/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:25:13-36
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0396eda377d92caceaf1884163b4736a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0396eda377d92caceaf1884163b4736a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+60            android:authorities="com.sagarkhurana.quizforfun.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0396eda377d92caceaf1884163b4736a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0396eda377d92caceaf1884163b4736a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0396eda377d92caceaf1884163b4736a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0396eda377d92caceaf1884163b4736a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0396eda377d92caceaf1884163b4736a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/madhavan/.gradle/caches/transforms-3/adfd241d31aa0dc8d9176e9f5dfaa47e/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/madhavan/.gradle/caches/transforms-3/adfd241d31aa0dc8d9176e9f5dfaa47e/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/madhavan/.gradle/caches/transforms-3/adfd241d31aa0dc8d9176e9f5dfaa47e/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <receiver
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+75            android:directBootAware="false"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+76            android:enabled="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+77            android:exported="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+78            android:permission="android.permission.DUMP" >
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/madhavan/.gradle/caches/transforms-3/0db8f035745ab68a2782efc838399652/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+90            </intent-filter>
+91        </receiver>
+92    </application>
+93
+94</manifest>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizOptionActivity">
+
+    <ImageView
+        android:id="@+id/imageViewQuizOption"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/levels"
+        style="@style/titleTextStyle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewQuizOption"
+        app:layout_constraintStart_toEndOf="@+id/imageViewQuizOption"
+        app:layout_constraintTop_toTopOf="@+id/imageViewQuizOption" />
+
+    <RelativeLayout
+        android:id="@+id/level1"
+        style="@style/cardViewStyle"
+        android:background="@drawable/home_bg"
+        android:layout_width="165dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLevel">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="@dimen/start_quiz_image_view_size"
+                android:layout_height="@dimen/start_quiz_image_view_size"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/one" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/Level1"
+                android:textSize="20sp"
+                style="@style/categoryHeadingTextStyle" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level2"
+        style="@style/cardViewStyle"
+        android:background="@drawable/home_bg"
+        android:layout_width="165dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLevel">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="@dimen/start_quiz_image_view_size"
+            android:layout_height="@dimen/start_quiz_image_view_size"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tw0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="@string/Level2"
+            android:textSize="20sp"
+            style="@style/categoryHeadingTextStyle" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level3"
+        style="@style/cardViewStyle"
+        android:background="@drawable/home_bg"
+        android:layout_width="165dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level1">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="@dimen/start_quiz_image_view_size"
+            android:layout_height="@dimen/start_quiz_image_view_size"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/three" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="@string/Level3"
+            android:textSize="20sp"
+            style="@style/categoryHeadingTextStyle" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level4"
+        style="@style/cardViewStyle"
+        android:background="@drawable/home_bg"
+        android:layout_width="165dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level2">
+
+        <ImageView
+            android:id="@+id/imageView99"
+            android:layout_width="@dimen/start_quiz_image_view_size"
+            android:layout_height="@dimen/start_quiz_image_view_size"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/four" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView99"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="@string/Level4"
+            android:textSize="20sp"
+            style="@style/categoryHeadingTextStyle" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
